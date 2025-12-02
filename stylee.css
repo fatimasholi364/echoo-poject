@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f3eee5;
+}
+
+/* ---------------- SIDEBAR ---------------- */
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #3b2a20;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 25px 20px;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+
+.sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    background: #eae4da;
+    color: #3b2a20;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sidebar a {
+    display: block;
+    color: #ffffffc4;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 12px 5px;
+    margin: 6px 0;
+    transition: 0.2s ease;
+}
+
+.sidebar a:hover {
+    color: #fff;
+    transform: translateX(6px);
+}
+
+/* ---------------- CONTENT ---------------- */
+
+.content {
+    margin-left: 300px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------- MAIN BOX ---------------- */
+
+.big-box {
+    background: #b4915a;
+    padding: 40px;
+    border-radius: 25px;
+    width: 70%;
+    margin-top: 40px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* ---------------- SETTING BLOCK ---------------- */
+
+.setting-block {
+    background: #fff8ef;
+    border-radius: 18px;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.setting-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3b2a20;
+}
+
+.setting-desc {
+    font-size: 14px;
+    color: #6a5645;
+    margin-bottom: 18px;
+}
+
+/* ---------------- TOGGLE ---------------- */
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f4ebe1;
+    padding: 10px 15px;
+    border-radius: 18px;
+}
+
+.toggle-text {
+    font-size: 16px;
+    color: #3b2a20;
+    font-weight: 600;
+}
+
+.toggle {
+    width: 48px;
+    height: 24px;
+    background: #d6c4b0;
+    border-radius: 50px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    transition: 0.25s;
+}
+
+.toggle-circle {
+    width: 18px;
+    height: 18px;
+    background: #3b2a20;
+    border-radius: 50%;
+    transition: 0.25s;
+}
+
+.toggle.active {
+    background: #3b2a20;
+}
+
+.toggle.active .toggle-circle {
+    background: #d4ba93;
+    margin-left: 22px;
+}
+/* ---------- GLOBAL BOX STYLE FOR OTHER PAGES ---------- */
+
+.page-box {
+    background: #b4915a;
+    padding: 40px;
+    border-radius: 25px;
+    width: 70%;
+    margin: 50px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.page-section {
+    background: #fff8ef;
+    padding: 30px 35px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.page-section h2 {
+    font-size: 28px;
+    color: #3b2a20;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.page-section p,
+.page-section span,
+.page-section a {
+    font-size: 16px;
+    color: #3b2a20;
+    line-height: 1.6;
+}
+
+.page-section a {
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+}
+/* Buttons inside page-section */
+.page-section a {
+    display: block;
+    width: fit-content;
+    background: #f4ebe1;
+    padding: 12px 18px;
+    border-radius: 12px;
+    margin: 8px 0;
+    color: #3b2a20;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.25s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+/* Hover effect */
+.page-section a:hover {
+    background: #e6d7c7;
+    transform: translateX(6px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+
